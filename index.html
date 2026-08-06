@@ -1,0 +1,1133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Lumen Producciones — Iluminamos momentos, Creamos recuerdos</title>
+<meta name="description" content="Producción integral de eventos sociales y corporativos en Lima y todo el Perú. Bodas, conferencias, lanzamientos de marca, escenografía, sonido e iluminación."/>
+<meta name="keywords" content="producción de eventos Lima, eventos corporativos Perú, bodas, quinceañeros, conferencias, lanzamiento de marca, producción audiovisual, escenografía, iluminación, pantallas LED"/>
+<meta name="theme-color" content="#090908"/>
+<meta name="author" content="Lumen Producciones"/>
+<link rel="canonical" href="https://lumenproducciones.com.pe/"/>
+<link rel="icon" type="image/svg+xml" href="img/favicon.svg"/>
+<link rel="apple-touch-icon" href="img/favicon.svg"/>
+<link rel="preload" as="image" href="img/hero.webp" fetchpriority="high"/>
+<!-- Open Graph -->
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="Lumen Producciones"/>
+<meta property="og:title" content="Lumen Producciones — Iluminamos momentos, Creamos recuerdos"/>
+<meta property="og:description" content="Producción integral de eventos sociales y corporativos en Lima y todo el Perú."/>
+<meta property="og:locale" content="es_PE"/>
+<meta property="og:url" content="https://lumenproducciones.com.pe/"/>
+<meta property="og:image" content="https://lumenproducciones.com.pe/img/hero.webp"/>
+<meta property="og:image:width" content="1376"/>
+<meta property="og:image:height" content="768"/>
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="Lumen Producciones — Iluminamos momentos, Creamos recuerdos"/>
+<meta name="twitter:description" content="Producción integral de eventos sociales y corporativos en Lima y todo el Perú."/>
+<meta name="twitter:image" content="https://lumenproducciones.com.pe/img/hero.webp"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EventPlanner",
+  "name": "Lumen Producciones",
+  "description": "Producción integral de eventos sociales y corporativos en Lima y todo el Perú.",
+  "slogan": "Iluminamos momentos, Creamos recuerdos",
+  "url": "https://lumenproducciones.com.pe/",
+  "image": "https://lumenproducciones.com.pe/img/hero.webp",
+  "email": "ventas@lumenproducciones.com.pe",
+  "telephone": "+51996474586",
+  "foundingDate": "2017",
+  "areaServed": [
+    {"@type": "City", "name": "Lima"},
+    {"@type": "City", "name": "Arequipa"},
+    {"@type": "City", "name": "Cusco"},
+    {"@type": "City", "name": "Trujillo"},
+    {"@type": "Country", "name": "Perú"}
+  ],
+  "address": {"@type": "PostalAddress", "addressLocality": "Lima", "addressCountry": "PE"},
+  "sameAs": ["https://www.instagram.com/lumenproducciones.pe/"],
+  "makesOffer": [
+    {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Eventos Corporativos", "description": "Lanzamientos de marca, cenas de gala, activaciones BTL y eventos de empresa."}},
+    {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "MICE", "description": "Congresos, convenciones, conferencias y ferias. Reuniones e incentivos con producción integral."}},
+    {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Eventos Sociales", "description": "Bodas, aniversarios y celebraciones privadas."}}
+  ]
+}
+</script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --B:#090908;--W:#F9F9F6;--gold:#C9A252;--gold2:#E2C07A;
+  --ink:#0E0D0B;--mute-l:#4A4845;--mute-d:rgba(255,255,255,.72);
+  --bw:rgba(0,0,0,.08);--bb:rgba(255,255,255,.07);
+  --display:'Cormorant Garamond',Georgia,serif;
+  --sans:'Outfit',system-ui,sans-serif;
+  --ease:cubic-bezier(.16,1,.3,1);
+  --ease2:cubic-bezier(.77,0,.175,1);
+}
+html{scroll-behavior:smooth;cursor:none}
+::selection{background:var(--gold);color:var(--B)}
+::-webkit-scrollbar{width:4px}
+::-webkit-scrollbar-track{background:transparent}
+::-webkit-scrollbar-thumb{background:rgba(201,162,82,.35);border-radius:2px}
+::-webkit-scrollbar-thumb:hover{background:var(--gold)}
+body{background:var(--B);color:var(--W);font-family:var(--sans);font-weight:300;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+
+/* ── CUSTOM CURSOR ── */
+#cur{position:fixed;width:8px;height:8px;background:var(--gold);border-radius:50%;pointer-events:none;z-index:9999;transform:translate(-50%,-50%);transition:width .25s var(--ease),height .25s var(--ease),background .22s,border-radius .22s,opacity .22s;will-change:transform}
+#cur.big{width:44px;height:44px;background:rgba(201,162,82,.1);border:1px solid rgba(201,162,82,.35);border-radius:50%}
+#cur.project{width:72px;height:72px;background:var(--gold);border-radius:0;border:none}
+#cur.grow{width:36px;height:36px;background:rgba(201,162,82,.08);border:1px solid rgba(201,162,82,.45);border-radius:50%}
+#pg-cur{position:fixed;pointer-events:none;z-index:9998;transform:translate(-50%,-50%);opacity:0;transition:opacity .22s;white-space:nowrap;mix-blend-mode:multiply}
+.pg-cur-inner{background:var(--gold);color:var(--B);font-family:var(--sans);font-size:8.5px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;padding:10px 16px;display:block}
+@media(hover:none),(pointer:coarse){html{cursor:auto}#cur,#pg-cur{display:none}}
+
+/* ── NAV ── */
+nav{position:fixed;top:0;left:0;right:0;z-index:300;padding:22px 64px;display:flex;align-items:center;justify-content:space-between;transition:background .4s,padding .3s,border-color .3s;border-bottom:1px solid transparent}
+nav.s{background:rgba(9,9,8,.94);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border-bottom-color:var(--bb);padding-top:13px;padding-bottom:13px}
+.n-logo{display:flex;align-items:center;gap:11px;text-decoration:none;cursor:none}
+.n-mark{height:38px;width:38px;display:block;flex-shrink:0;transition:transform .5s var(--ease)}
+.n-logo:hover .n-mark{transform:rotate(-4deg) scale(1.05)}
+.n-logo-text{font-family:var(--display);font-weight:700;font-size:18px;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.92);line-height:1}
+.n-logo-text span{display:block;font-family:var(--sans);font-size:7.5px;letter-spacing:.42em;color:var(--gold);font-weight:500;margin-top:3px}
+.nmid{display:flex;gap:30px;list-style:none}
+.nmid li{overflow:hidden}
+.nmid a{color:rgba(255,255,255,.52);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;text-decoration:none;font-weight:400;cursor:none;display:flex;flex-direction:column;height:1.2em;overflow:hidden;transition:color .2s,letter-spacing .28s}
+.nmid a.active{color:var(--gold2)}
+.nmid a:hover{letter-spacing:.1em}
+.nmid a span{display:block;line-height:1.2;transition:transform .3s var(--ease)}
+.nmid a .clone{color:rgba(255,255,255,.82)}
+.nmid a:hover span{transform:translateY(-100%)}
+.ncta{font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--B);background:linear-gradient(135deg,var(--gold2),var(--gold));border:none;padding:12px 26px;text-decoration:none;cursor:none;position:relative;overflow:hidden;box-shadow:0 6px 20px rgba(201,162,82,.4);animation:ctaPulse 1.9s ease-out infinite;transition:transform .25s var(--ease),filter .25s}
+.ncta:hover{transform:translateY(-2px) scale(1.04);filter:brightness(1.08)}
+.ncta span{position:relative;z-index:2}
+.ncta::after{content:'';position:absolute;top:0;left:-70%;width:45%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.7),transparent);transform:skewX(-18deg);animation:ctaShine 3s ease-in-out infinite;pointer-events:none;z-index:1;border-radius:inherit}
+@keyframes ctaPulse{0%{box-shadow:0 8px 22px rgba(201,162,82,.45),0 0 0 0 rgba(226,192,122,.6)}70%{box-shadow:0 8px 26px rgba(201,162,82,.5),0 0 0 15px rgba(226,192,122,0)}100%{box-shadow:0 8px 22px rgba(201,162,82,.45),0 0 0 0 rgba(226,192,122,0)}}
+@keyframes ctaShine{0%{left:-70%}45%,100%{left:175%}}
+.n-burger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none;padding:6px;min-width:44px;min-height:44px;align-items:center;justify-content:center}
+.n-burger span{display:block;width:22px;height:1.5px;background:rgba(255,255,255,.78);transition:all .3s}
+.n-burger.open span:nth-child(1){transform:translateY(6.5px) rotate(45deg)}
+.n-burger.open span:nth-child(2){opacity:0;transform:scaleX(0)}
+.n-burger.open span:nth-child(3){transform:translateY(-6.5px) rotate(-45deg)}
+.n-mobile-menu{display:none;position:fixed;inset:0;background:#070706;flex-direction:column;align-items:center;justify-content:center;gap:34px;z-index:299;padding:88px 24px 40px}
+.n-mobile-menu.open{display:flex}
+.n-mobile-menu a{font-family:var(--display);font-size:clamp(34px,9vw,52px);font-weight:600;color:rgba(255,255,255,.68);text-decoration:none;transition:color .2s}
+.n-mobile-menu a:hover{color:var(--gold)}
+
+/* ── UTILS ── */
+.eyebrow{font-family:var(--sans);font-size:10px;font-weight:600;letter-spacing:.26em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.eyebrow::before{content:'';display:block;width:24px;height:1px;background:var(--gold);flex-shrink:0;transform:scaleX(0);transform-origin:left;transition:transform .6s var(--ease) .3s}
+.eyebrow.v::before{transform:scaleX(1)}
+.h2-b{font-family:var(--display);font-size:clamp(38px,4.4vw,68px);font-weight:700;color:#fff;line-height:1.06;letter-spacing:.01em}
+.h2-w{font-family:var(--display);font-size:clamp(38px,4.4vw,68px);font-weight:700;color:var(--ink);line-height:1.06;letter-spacing:.01em}
+/* wipe left→right */
+.wipe{clip-path:inset(0 100% 0 0);transition:clip-path .95s var(--ease)}
+.wipe.v{clip-path:inset(0 0% 0 0)}
+/* fade+rise */
+.rv{opacity:0;transform:translateY(12px);transition:opacity .65s ease,transform .65s ease}
+.rv.v{opacity:1;transform:none}
+/* word slots */
+.wr{display:inline-block;overflow:hidden;vertical-align:bottom;line-height:inherit}
+.wr-i{display:inline-block;transform:translateY(106%);transition:transform .82s var(--ease)}
+.wr.v .wr-i{transform:translateY(0)}
+/* outlined ghost headline */
+.ghost-txt{position:absolute;font-family:var(--display);font-weight:700;color:transparent;-webkit-text-stroke:1px rgba(201,162,82,.08);pointer-events:none;user-select:none;white-space:nowrap;line-height:1}
+
+/* ── BUTTONS ── */
+.btn-gold{font-family:var(--sans);font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;background:linear-gradient(135deg,var(--gold2),var(--gold));color:var(--B);padding:18px 40px;text-decoration:none;display:inline-block;cursor:none;position:relative;overflow:hidden;transition:letter-spacing .28s,transform .25s var(--ease),box-shadow .3s;min-height:54px;display:inline-flex;align-items:center;justify-content:center;box-shadow:0 8px 22px rgba(201,162,82,.45);animation:ctaPulse 1.9s ease-out infinite}
+.btn-gold::before{content:'';position:absolute;inset:0;background:var(--gold2);transform:translateX(-100%);transition:transform .32s var(--ease2)}
+.btn-gold::after{content:'';position:absolute;top:0;left:-70%;width:45%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.6),transparent);transform:skewX(-18deg);animation:ctaShine 3.6s ease-in-out infinite;pointer-events:none;z-index:1}
+.btn-gold:hover{letter-spacing:.18em;filter:brightness(1.07)}
+.btn-gold:hover::before{transform:translateX(0)}
+.btn-gold span{position:relative;z-index:2}
+.btn-wire-w{font-family:var(--sans);font-size:10px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.72);border:1px solid rgba(255,255,255,.4);padding:16px 36px;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;cursor:none;transition:all .28s var(--ease);min-height:48px}
+.btn-wire-w:hover{color:#fff;border-color:rgba(255,255,255,.38);letter-spacing:.16em}
+.btn-wire-b{font-family:var(--sans);font-size:10px;font-weight:500;letter-spacing:.12em;text-transform:uppercase;color:rgba(14,13,11,.62);border:1px solid rgba(14,13,11,.3);padding:16px 36px;text-decoration:none;display:inline-block;cursor:none;transition:all .28s var(--ease)}
+.btn-wire-b:hover{color:var(--ink);border-color:var(--ink);letter-spacing:.16em;background:rgba(14,13,11,.05)}
+
+/* ── HERO ── */
+#hero{position:relative;height:100svh;min-height:640px;display:flex;flex-direction:column;justify-content:center;align-items:center;overflow:hidden}
+.h-bg{position:absolute;inset:-3%;background:url('img/hero.webp') center/cover no-repeat;filter:brightness(.55) saturate(.92);will-change:transform}
+.h-grad{position:absolute;inset:0;background:linear-gradient(180deg,rgba(9,9,8,.5) 0%,rgba(9,9,8,.32) 30%,rgba(9,9,8,.62) 66%,rgba(9,9,8,.98) 100%)}
+
+/* ghost background word */
+.h-ghost{position:absolute;bottom:8%;left:50%;transform:translateX(-50%);font-family:var(--display);font-size:min(22vw,200px);font-weight:700;color:transparent;-webkit-text-stroke:1px rgba(255,255,255,.04);pointer-events:none;user-select:none;white-space:nowrap;animation:ghostFade 1.4s ease .6s both}
+@keyframes ghostFade{from{opacity:0;transform:translateX(-50%) scale(.96)}to{opacity:1;transform:translateX(-50%) scale(1)}}
+.h-main{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;text-align:center;padding:0 40px}
+@keyframes hUp{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+@keyframes goldLine{from{transform:scaleX(0);transform-origin:left}to{transform:scaleX(1);transform-origin:left}}
+.h-accent{width:36px;height:1px;background:var(--gold);animation:goldLine .5s ease .05s both;margin:0 auto 22px}
+.h-lockup{display:flex;flex-direction:column;align-items:center;gap:14px;margin-bottom:26px;animation:hUp .9s ease .15s both}
+.h-mark{width:clamp(76px,11vw,104px);height:auto;display:block;filter:drop-shadow(0 0 26px rgba(201,162,82,.28))}
+.h-word{font-family:var(--display);font-weight:700;font-size:clamp(20px,2.4vw,26px);letter-spacing:.34em;text-transform:uppercase;color:#fff;text-indent:.34em;line-height:1;text-align:center}
+.h-word span{display:block;font-family:var(--sans);font-size:clamp(8px,.9vw,9.5px);letter-spacing:.56em;text-indent:.56em;color:var(--gold);font-weight:500;margin-top:7px}
+.h-tagline{font-family:var(--display);font-weight:700;font-size:clamp(50px,8.5vw,108px);line-height:.91;letter-spacing:.015em;color:#fff;position:relative}
+.h-tagline-gold{color:var(--gold);font-style:italic}
+.h-sub{font-size:clamp(15px,1.3vw,16px);font-weight:300;color:rgba(255,255,255,.78);max-width:400px;margin:22px auto 0;line-height:2;letter-spacing:.025em;opacity:0;animation:hUp .8s ease .95s forwards}
+.h-bar{position:relative;z-index:2;display:flex;align-items:center;justify-content:center;gap:12px;padding-top:36px;padding-bottom:0;opacity:0;animation:hUp .7s ease 1.1s forwards}
+.h-trust{position:relative;z-index:2;display:flex;align-items:center;justify-content:center;gap:15px;margin-top:30px;flex-wrap:wrap;opacity:0;animation:hUp .7s ease 1.32s forwards;font-family:var(--sans);font-size:11px;font-weight:300;letter-spacing:.05em;color:rgba(255,255,255,.6);text-transform:uppercase}
+.h-trust strong{color:var(--gold2);font-weight:600}
+.h-trust-sep{width:3px;height:3px;border-radius:50%;background:rgba(201,162,82,.55);flex-shrink:0}
+
+/* ── EFECTOS CREATIVOS ── */
+.h-bg{animation:heroDrift 32s ease-in-out infinite alternate}
+@keyframes heroDrift{from{scale:1.04}to{scale:1.13}}
+.h-embers{position:absolute;inset:0;z-index:1;pointer-events:none;overflow:hidden}
+.ember{position:absolute;bottom:-14px;border-radius:50%;background:radial-gradient(circle,rgba(245,225,170,.95),rgba(201,162,82,0) 70%);opacity:0;animation:emberRise linear infinite;will-change:transform,opacity}
+@keyframes emberRise{0%{transform:translate3d(0,0,0) scale(.5);opacity:0}12%{opacity:.85}70%{opacity:.5}100%{transform:translate3d(var(--dx,12px),-94vh,0) scale(1);opacity:0}}
+.h-tagline-gold{animation:goldGlow 4.6s ease-in-out infinite}
+@keyframes goldGlow{0%,100%{text-shadow:0 0 0 rgba(226,192,122,0)}50%{text-shadow:0 0 34px rgba(226,192,122,.45)}}
+.pi{transform-style:preserve-3d;transition:transform .35s var(--ease),filter .55s}
+.sv-img{clip-path:inset(0 0 102% 0);transition:clip-path 1.05s var(--ease)}
+.sv-img.v{clip-path:inset(0 0 0 0)}
+/* foco de luz que sigue el cursor (brilla sobre fondos oscuros) */
+#spot{position:fixed;inset:0;z-index:50;pointer-events:none;mix-blend-mode:screen;background:radial-gradient(240px circle at var(--mx,-200px) var(--my,-200px),rgba(206,166,86,.13),transparent 68%);opacity:0;transition:opacity .6s}
+#spot.on{opacity:1}
+/* pulso de luz en WhatsApp */
+.wa-float::before{content:'';position:absolute;inset:0;border-radius:50%;background:#25D366;z-index:-1;animation:waPulse 2.8s ease-out infinite}
+@keyframes waPulse{0%{transform:scale(1);opacity:.55}70%{transform:scale(2);opacity:0}100%{transform:scale(2);opacity:0}}
+
+/* ── TIPOS ── */
+#tipos{background:var(--B);position:relative;overflow:hidden;padding-top:80px;padding-bottom:80px}
+.tipos-ghost{position:absolute;bottom:-0.05em;left:50%;transform:translateX(-50%);font-family:var(--display);font-size:min(16vw,140px);font-weight:700;color:transparent;-webkit-text-stroke:1px rgba(255,255,255,.03);pointer-events:none;user-select:none;white-space:nowrap}
+.tipos-grid{display:grid;grid-template-columns:repeat(3,1fr);position:relative;z-index:1;max-width:1440px;margin:0 auto;border:1px solid var(--bb)}
+.tipo-cell{padding:54px 48px;border-right:1px solid var(--bb);position:relative;overflow:hidden;transition:background .35s}
+.tipo-cell::after{content:'';position:absolute;bottom:0;left:0;width:0;height:2px;background:linear-gradient(to right,var(--gold),var(--gold2));transition:width .55s var(--ease)}
+.tipo-cell:hover::after{width:100%}
+.tipo-cell:last-child{border-right:none}
+.tipo-cell:hover{background:rgba(255,255,255,.055)}
+.tipo-cell:hover .tipo-num{color:var(--gold2);letter-spacing:.36em}
+.tipo-num{font-family:var(--sans);font-size:10px;font-weight:600;letter-spacing:.3em;color:rgba(201,162,82,.55);margin-bottom:20px;transition:color .28s,letter-spacing .3s}
+.tipo-title{font-family:var(--display);font-size:clamp(24px,2.4vw,32px);font-weight:700;color:#fff;margin-bottom:12px;line-height:1.1;transition:letter-spacing .45s var(--ease)}
+.tipo-cell:hover .tipo-title{letter-spacing:.06em}
+.tipo-body{font-size:14px;color:var(--mute-d);line-height:1.9;font-weight:400}
+
+/* ── SERVICIOS ── */
+#servicios{background:var(--W)}
+.sv-intro{padding:80px 64px 52px;display:flex;justify-content:space-between;align-items:flex-end;border-bottom:1px solid var(--bw);gap:48px}
+.sv-intro-sub{max-width:340px;text-align:right;font-size:15px;color:var(--mute-l);line-height:1.9;font-weight:400;flex-shrink:0}
+.sv-split{display:grid;grid-template-columns:1fr 1fr}
+.sv-list{border-right:1px solid var(--bw)}
+.sv-row{display:grid;grid-template-columns:52px 1fr 24px;padding:34px 52px;border-bottom:1px solid var(--bw);cursor:none;position:relative}
+.sv-row:last-child{border-bottom:none}
+.sv-row::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;background:linear-gradient(to bottom,var(--gold),var(--gold2));transform:scaleY(0);transform-origin:top;transition:transform .4s var(--ease)}
+.sv-row.act::before,.sv-row:hover::before{transform:scaleY(1)}
+.sv-row.act{background:rgba(0,0,0,.018)}
+.sv-row.act .sv-rarr,.sv-row:hover .sv-rarr{transform:translateX(6px);opacity:1;color:var(--gold2)}
+.sv-row.act .sv-rn{color:var(--gold)}
+.sv-rn{font-family:var(--sans);font-size:10px;font-weight:600;letter-spacing:.22em;color:var(--gold);padding-top:8px}
+.sv-rbody{padding-right:14px}
+.sv-rt{font-family:var(--display);font-size:clamp(23px,2.4vw,34px);font-weight:700;color:var(--ink);line-height:1.03;letter-spacing:.01em;margin-bottom:3px;transition:letter-spacing .42s var(--ease)}
+.sv-row:hover .sv-rt{letter-spacing:.04em}
+.sv-rsub-tag{font-size:10.5px;color:rgba(14,13,11,.42);letter-spacing:.08em;text-transform:uppercase;font-family:var(--sans)}
+.sv-rsub{max-height:0;overflow:hidden;transition:max-height .5s var(--ease),opacity .35s;opacity:0}
+.sv-row.act .sv-rsub{max-height:340px;opacity:1}
+.sv-rsub p{font-size:14px;color:var(--mute-l);line-height:1.9;margin-top:12px;font-weight:300}
+.sv-items{list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:6px 22px;margin-top:14px}
+.sv-items li{font-size:12.5px;color:rgba(14,13,11,.58);padding-left:14px;position:relative;line-height:1.72}
+.sv-items li::before{content:'—';position:absolute;left:0;color:var(--gold)}
+.sv-link{display:inline-flex;align-items:center;gap:8px;margin-top:16px;font-family:var(--sans);font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ink);text-decoration:none;border-bottom:1px solid rgba(0,0,0,.06);padding-bottom:1px;transition:gap .28s,border-color .22s,color .2s,letter-spacing .28s;cursor:none}
+.sv-link:hover{gap:14px;border-color:var(--gold);color:var(--gold);letter-spacing:.14em}
+.sv-rarr{font-size:17px;color:rgba(14,13,11,.25);padding-top:7px;transition:color .22s,transform .28s var(--ease)}
+.sv-row.act .sv-rarr,.sv-row:hover .sv-rarr{color:var(--gold);transform:translateX(5px)}
+.sv-img{position:relative;overflow:hidden;background:#ddd9d2}
+.sv-img img{width:100%;height:100%;min-height:560px;object-fit:cover;display:block;transition:opacity .45s,transform .65s var(--ease)}
+
+/* ── PROYECTOS ── */
+#proyectos{background:var(--B);padding:84px 64px;position:relative}
+.sec-head{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:44px;gap:20px}
+.sec-lnk{font-family:var(--sans);font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.5);text-decoration:none;display:inline-flex;align-items:center;gap:9px;transition:color .22s,gap .28s,letter-spacing .28s;white-space:nowrap;cursor:none;overflow:hidden;position:relative}
+.sec-lnk::after{content:'→'}
+.sec-lnk:hover{color:var(--gold2);gap:16px;letter-spacing:.14em}
+.pg{display:grid;grid-template-columns:repeat(3,1fr);grid-auto-rows:236px;gap:3px}
+.pi{position:relative;overflow:hidden;background:#111110;cursor:none}
+.pi.tall{grid-row:span 2}
+.pi img{width:100%;height:100%;object-fit:cover;display:block;filter:brightness(.88) saturate(.95);transition:transform .85s var(--ease),filter .55s}
+.pi:hover img{filter:brightness(1.02) saturate(1.05);transform:scale(1.06)}
+.pi-info{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-end;padding:24px 26px;background:linear-gradient(to top,rgba(9,9,8,.92) 0%,rgba(9,9,8,.3) 40%,transparent 70%)}
+.pi-cat{font-size:9.5px;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);margin-bottom:4px;opacity:0;transform:translateY(10px);transition:all .38s}
+.pi-name{font-family:var(--display);font-size:clamp(15px,1.4vw,18px);font-weight:700;color:#fff;line-height:1.2;opacity:0;transform:translateY(10px);transition:all .38s .08s}
+.pi-det{font-size:10px;color:rgba(255,255,255,.58);margin-top:3px;opacity:0;transform:translateY(10px);transition:all .38s .15s}
+.pi:hover .pi-cat,.pi:hover .pi-name,.pi:hover .pi-det{opacity:1;transform:none}
+
+/* ── DATOS ── */
+#datos{background:var(--W)}
+.dat-grid{display:grid;grid-template-columns:1fr 1fr}
+.dat-left{padding:76px 60px;display:flex;flex-direction:column;justify-content:center;border-right:1px solid var(--bw);position:relative;overflow:hidden}
+/* ghost number behind stat */
+.d-ghost-bg{position:absolute;right:-30px;bottom:-20px;font-family:var(--display);font-size:clamp(180px,22vw,260px);font-weight:700;color:transparent;-webkit-text-stroke:1px rgba(0,0,0,.03);line-height:1;pointer-events:none;user-select:none;opacity:0;transition:opacity .6s}
+.dat-left:hover .d-ghost-bg{opacity:1}
+.dat-stats{display:flex;flex-direction:column;margin-top:38px;position:relative;z-index:1}
+.d-item{display:flex;align-items:baseline;gap:20px;padding:24px 0;border-bottom:1px solid var(--bw);transition:background .28s}
+.d-item:hover{background:rgba(0,0,0,.018);padding-left:6px}
+.d-item:first-child{padding-top:0}
+.d-item:last-child{border-bottom:none;padding-bottom:0}
+.d-n{font-family:var(--display);font-size:clamp(56px,7vw,88px);font-weight:700;color:var(--ink);line-height:1;letter-spacing:-.01em;flex-shrink:0;transition:color .3s}
+.d-item:hover .d-n{color:var(--gold)}
+.d-n sup{font-size:.28em;color:var(--gold);vertical-align:super;letter-spacing:0;font-weight:600}
+.d-txt{display:flex;flex-direction:column;gap:3px;padding-bottom:3px}
+.d-lbl{font-family:var(--sans);font-size:14.5px;font-weight:700;color:var(--ink)}
+.d-sm{font-size:13.5px;color:var(--mute-l);line-height:1.65;font-weight:300}
+.dat-right{position:relative;overflow:hidden;background:#ccc}
+.dat-right img{width:100%;height:100%;min-height:460px;object-fit:cover;display:block;filter:brightness(.92) saturate(.9)}
+.dat-quote-box{position:absolute;bottom:0;left:0;right:0;padding:32px 36px;background:rgba(9,9,8,.88);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border-top:2px solid var(--gold);transition:background .3s}
+.dat-quote-box:hover{background:rgba(9,9,8,.96)}
+.dq-t{font-family:var(--display);font-size:clamp(17px,1.9vw,22px);font-weight:600;color:#fff;line-height:1.46;font-style:italic;letter-spacing:.01em}
+.dq-t em{font-style:normal;color:var(--gold)}
+
+/* ── PROCESO ── */
+#proceso{background:var(--B);padding:84px 64px;position:relative;overflow:hidden}
+.proc-ghost{position:absolute;right:-40px;bottom:-0.1em;font-family:var(--display);font-size:min(24vw,220px);font-weight:700;color:transparent;-webkit-text-stroke:1px rgba(255,255,255,.025);pointer-events:none;user-select:none}
+.proc-cols{display:grid;grid-template-columns:repeat(4,1fr);margin-top:54px;position:relative;z-index:1}
+.proc-cols::before{content:'';position:absolute;top:14px;left:calc(12.5% - 4px);right:calc(12.5% - 4px);height:1px;background:linear-gradient(90deg,var(--gold) 0%,rgba(201,162,82,.08) 100%)}
+.pc{padding:0 28px 0 0}
+.pc-dot{width:9px;height:9px;border-radius:50%;background:var(--gold);margin-bottom:24px;box-shadow:0 0 0 3px rgba(201,162,82,.12);transition:box-shadow .3s}
+.pc:hover .pc-dot{box-shadow:0 0 0 5px rgba(201,162,82,.2),0 0 14px rgba(201,162,82,.25);transform:scale(1.25)}
+.pc-n{font-size:10px;letter-spacing:.32em;color:rgba(255,255,255,.45);font-family:var(--sans);font-weight:600;margin-bottom:9px;transition:color .28s}
+.pc:hover .pc-n{color:var(--gold)}
+.pc-title{font-family:var(--display);font-size:21px;font-weight:700;color:#fff;margin-bottom:9px;line-height:1.18;transition:letter-spacing .42s var(--ease)}
+.pc:hover .pc-title{letter-spacing:.04em}
+.pc-body{font-size:14px;color:var(--mute-d);line-height:1.9;font-weight:400}
+
+/* ── NOSOTROS ── */
+#nosotros{background:var(--W)}
+.nos-grid{display:grid;grid-template-columns:1fr 1fr}
+.nos-imgs{display:flex;flex-direction:column;gap:3px}
+.nos-img-main{width:100%;height:430px;object-fit:cover;display:block;filter:brightness(.96) saturate(.92);transition:filter .5s,transform .5s var(--ease)}
+.nos-imgs:hover .nos-img-main{filter:brightness(1.03) saturate(1);transform:scale(1.01)}
+.nos-img-row{display:grid;grid-template-columns:1fr 1fr;gap:3px}
+.nos-img-row img{width:100%;height:152px;object-fit:cover;display:block;filter:brightness(.9) saturate(.9)}
+.nos-txt{padding:76px 56px;display:flex;flex-direction:column;justify-content:center;border-left:1px solid var(--bw);position:relative}
+.nos-txt-ghost{position:absolute;top:50%;right:-30px;transform:translateY(-50%) rotate(90deg);font-family:var(--display);font-size:min(12vw,110px);font-weight:700;color:transparent;-webkit-text-stroke:1px rgba(0,0,0,.03);pointer-events:none;user-select:none;white-space:nowrap}
+.nos-p{font-size:15px;color:var(--mute-l);line-height:1.94;margin-top:18px;font-weight:300;position:relative;z-index:1}
+.nos-p p+p{margin-top:16px}
+.chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:20px;position:relative;z-index:1}
+.chip{font-size:10px;letter-spacing:.1em;text-transform:uppercase;border:1px solid rgba(0,0,0,.14);color:rgba(14,13,11,.62);padding:7px 16px;transition:all .25s;font-family:var(--sans);cursor:default}
+.chip:hover{border-color:rgba(14,13,11,.4);color:var(--ink);letter-spacing:.14em}
+
+/* ── POR QUÉ ── */
+#porq{background:var(--B);padding:84px 64px;position:relative;overflow:hidden}
+.porq-ghost{position:absolute;left:-20px;bottom:-0.08em;font-family:var(--display);font-size:min(22vw,200px);font-weight:700;color:transparent;-webkit-text-stroke:1px rgba(255,255,255,.028);pointer-events:none;user-select:none}
+.pq-grid{display:grid;grid-template-columns:repeat(3,1fr);margin-top:54px;border:1px solid var(--bb);position:relative;z-index:1}
+.pq-cell{padding:46px 40px;border-right:1px solid var(--bb);position:relative;overflow:hidden;transition:background .32s,transform .36s var(--ease)}
+.pq-cell::after{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(to right,var(--gold),var(--gold2));transform:scaleX(0);transform-origin:left;transition:transform .42s var(--ease)}
+.pq-cell:hover::after{transform:scaleX(1)}
+.pq-cell:last-child{border-right:none}
+.pq-cell:hover{background:rgba(255,255,255,.055);transform:translateY(-2px)}
+.pq-icon{width:28px;height:28px;color:var(--gold);margin-bottom:22px;opacity:.85;transition:transform .3s var(--ease)}
+.pq-cell:hover .pq-icon{transform:scale(1.15) rotate(-5deg)}
+.pq-title{font-family:var(--display);font-size:22px;font-weight:700;color:#fff;margin-bottom:9px;line-height:1.18;transition:letter-spacing .42s var(--ease)}
+.pq-cell:hover .pq-title{letter-spacing:.04em}
+.pq-body{font-size:14px;color:var(--mute-d);line-height:1.9;font-weight:400}
+
+/* ── CONTACTO ── */
+#contacto{background:var(--W)}
+.ct-grid{display:grid;grid-template-columns:1fr 1.65fr;padding:76px 64px;gap:88px}
+.ct-left-p{font-size:15px;color:var(--mute-l);line-height:1.92;margin-bottom:34px;font-weight:300}
+.ct-fields{display:flex;flex-direction:column;gap:16px}
+.ct-f{display:flex;align-items:center;gap:13px}
+.ct-ico{width:14px;height:14px;color:var(--gold);flex-shrink:0}
+.ct-val{font-size:14px;color:var(--ink)}
+.ct-val a{color:var(--ink);text-decoration:none;transition:color .22s,letter-spacing .28s;cursor:none}
+.ct-val a:hover{color:var(--gold);letter-spacing:.02em}
+.ct-social{display:flex;gap:8px;margin-top:28px;flex-wrap:wrap}
+.soc-btn{display:inline-flex;align-items:center;gap:7px;font-family:var(--sans);font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;padding:11px 18px;border:1px solid rgba(0,0,0,.14);color:rgba(14,13,11,.65);text-decoration:none;transition:all .25s;cursor:none;position:relative;overflow:hidden}
+.soc-btn::before{content:'';position:absolute;inset:0;background:var(--ink);transform:translateX(-100%);transition:transform .3s var(--ease2)}
+.soc-btn:hover{color:#fff;border-color:var(--ink)}
+.soc-btn:hover::before{transform:translateX(0)}
+.soc-btn svg{position:relative;z-index:1}
+.soc-btn span{position:relative;z-index:1}
+/* floating label form */
+.fg{position:relative;margin-bottom:28px}
+.fg label{display:block;font-family:var(--sans);font-size:9.5px;letter-spacing:.2em;text-transform:uppercase;color:rgba(14,13,11,.42);margin-bottom:8px;transition:color .22s}
+.fg:focus-within label{color:var(--gold)}
+input,textarea,select{width:100%;background:transparent;border:none;border-bottom:1px solid rgba(0,0,0,.1);color:var(--ink);font-family:var(--sans);font-size:14px;font-weight:300;padding:13px 0 11px;outline:none;transition:border-color .3s,box-shadow .3s;-webkit-appearance:none;resize:none;cursor:none;min-height:44px}
+input:focus,textarea:focus,select:focus{border-bottom-color:var(--gold);box-shadow:0 2px 0 -1px var(--gold)}
+input::placeholder,textarea::placeholder{color:rgba(14,13,11,.28);transition:opacity .22s}
+input:focus::placeholder,textarea:focus::placeholder{opacity:.5}
+/* select arrow */
+select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23C9A252' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 4px center;padding-right:24px;cursor:none}
+input:focus,textarea:focus,select:focus{border-bottom-color:var(--gold)}
+input::placeholder,textarea::placeholder{color:rgba(14,13,11,.32)}
+textarea{height:110px;min-height:110px}
+select option{background:#fff;color:var(--ink)}
+.f-row{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-bottom:20px}
+.fg{margin-bottom:20px}
+.btn-sub{font-family:var(--sans);font-size:10px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;background:var(--gold);color:var(--B);border:none;padding:0 40px;cursor:none;display:flex;width:100%;align-items:center;justify-content:center;gap:14px;transition:letter-spacing .3s var(--ease),background .3s,color .3s,transform .2s;margin-top:20px;min-height:58px;position:relative;overflow:hidden;border-radius:0}
+.btn-sub::after{content:'';position:absolute;inset:0;background:var(--ink);transform:translateY(100%);transition:transform .38s var(--ease2)}
+.btn-sub:hover:not(:disabled){letter-spacing:.22em;color:#fff;transform:translateY(-1px)}
+.btn-sub:hover:not(:disabled)::after{transform:translateY(0)}
+.btn-sub:hover:not(:disabled) .sbtn-ico{transform:translateX(5px)}
+.btn-sub:disabled{opacity:.75;cursor:not-allowed}
+.btn-sub span,.btn-sub svg,.btn-sub .sbtn-spinner,.btn-sub .sbtn-ico{position:relative;z-index:1}
+.sbtn-ico{transition:transform .28s var(--ease)}
+/* spinner */
+.sbtn-spinner{display:none;width:16px;height:16px;border:2px solid rgba(0,0,0,.25);border-top-color:var(--B);border-radius:50%;animation:spin .7s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.btn-sub.loading .sbtn-spinner{display:block}
+.btn-sub.loading .sbtn-ico{display:none}
+.btn-sub.loading span{opacity:.7}
+/* success */
+.btn-sub.success{background:#1e6b3c;color:#fff}
+.btn-sub.success::after{display:none}
+.btn-sub.error{background:#25D366;color:#08361a}
+.btn-sub.error::after{display:none}
+.sbtn-check{display:none;width:18px;height:18px;stroke:#fff}
+.btn-sub.success .sbtn-check{display:block;animation:popIn .35s var(--ease) both}
+.btn-sub.success .sbtn-ico{display:none}
+.btn-sub.success .sbtn-spinner{display:none}
+@keyframes popIn{0%{transform:scale(0) rotate(-10deg);opacity:0}70%{transform:scale(1.2)}100%{transform:scale(1);opacity:1}}
+
+/* ── FOOTER ── */
+footer{background:var(--B);padding:32px 64px;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;border-top:1px solid var(--bb);gap:20px}
+.f-logo{display:flex;align-items:center;gap:11px;text-decoration:none;cursor:none}
+.f-mark{height:34px;width:34px;display:block;opacity:.92}
+.f-logo span{font-family:var(--display);font-size:15px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:rgba(255,255,255,.7)}
+.f-copy{font-size:10.5px;color:rgba(255,255,255,.42);text-align:center;font-family:var(--sans);line-height:1.8}
+.f-links{display:flex;gap:14px;justify-content:flex-end}
+.f-links a{font-size:10.5px;color:rgba(255,255,255,.48);text-decoration:none;display:inline-flex;align-items:center;gap:5px;transition:color .22s,letter-spacing .28s;min-height:44px;cursor:none}
+.f-links a:hover{color:var(--gold2);letter-spacing:.06em}
+.f-links svg{width:11px;height:11px}
+
+/* ── FLOATS ── */
+.wa-float,.ig-float{position:fixed;right:20px;z-index:400;width:48px;height:48px;border-radius:50%;display:flex;align-items:center;justify-content:center;text-decoration:none;box-shadow:0 4px 18px rgba(0,0,0,.3);transition:transform .28s var(--ease),box-shadow .28s;cursor:none}
+.wa-float{bottom:20px;background:#25D366}
+.ig-float{bottom:78px;background:radial-gradient(circle at 30% 107%,#fdf497 0%,#fd5949 45%,#d6249f 60%,#285AEB 90%)}
+.wa-float:hover,.ig-float:hover{transform:scale(1.12) translateY(-3px);box-shadow:0 8px 28px rgba(0,0,0,.38)}
+
+/* ── TESTIMONIOS ── */
+#testi{background:var(--W);padding:84px 64px;position:relative;overflow:hidden}
+.testi-marquee{position:relative;margin-top:50px;overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent 0,#000 7%,#000 93%,transparent 100%);mask-image:linear-gradient(90deg,transparent 0,#000 7%,#000 93%,transparent 100%)}
+.testi-track{display:flex;gap:24px;width:max-content;animation:testiScroll 64s linear infinite;will-change:transform}
+.testi-marquee:hover .testi-track{animation-play-state:paused}
+@keyframes testiScroll{from{transform:translateX(0)}to{transform:translateX(calc(-50% - 12px))}}
+.tcard{flex:0 0 372px;width:372px;border:1px solid var(--bw);padding:34px 32px 28px;display:flex;flex-direction:column;position:relative;background:rgba(255,255,255,.55);transition:transform .4s var(--ease),box-shadow .4s,border-color .3s}
+.tcard::before{content:'';position:absolute;top:0;left:0;width:100%;height:2px;background:linear-gradient(to right,var(--gold),var(--gold2));transform:scaleX(0);transform-origin:left;transition:transform .5s var(--ease)}
+.tcard:hover{transform:translateY(-4px);box-shadow:0 18px 44px rgba(14,13,11,.07);border-color:rgba(201,162,82,.3)}
+.tcard:hover::before{transform:scaleX(1)}
+.tcard-q{font-family:var(--display);font-size:46px;line-height:1;color:var(--gold);opacity:.5;height:30px;margin-bottom:6px}
+.tcard-body{font-family:var(--display);font-size:17px;font-style:italic;font-weight:500;color:var(--ink);line-height:1.6;letter-spacing:.005em;flex:1}
+.tcard-foot{display:flex;align-items:center;gap:13px;margin-top:24px;padding-top:20px;border-top:1px solid var(--bw)}
+.tcard-ava{width:46px;height:46px;border-radius:50%;flex-shrink:0;object-fit:cover;border:1px solid rgba(201,162,82,.45);background:#e8e4dd}
+.tcard-meta{display:flex;flex-direction:column;gap:2px}
+.tcard-name{font-family:var(--sans);font-size:13px;font-weight:600;color:var(--ink)}
+.tcard-role{font-family:var(--sans);font-size:11px;color:var(--mute-l);letter-spacing:.02em}
+
+/* ── FAQ ── */
+#faq{background:var(--B);padding:84px 64px;position:relative;overflow:hidden}
+.faq-ghost{position:absolute;right:-30px;bottom:-0.1em;font-family:var(--display);font-size:min(20vw,180px);font-weight:700;color:transparent;-webkit-text-stroke:1px rgba(255,255,255,.025);pointer-events:none;user-select:none}
+.faq-list{max-width:880px;margin:48px auto 0;position:relative;z-index:1}
+.faq-item{border-bottom:1px solid var(--bb)}
+.faq-item summary{list-style:none;cursor:none;padding:26px 4px;display:flex;align-items:center;justify-content:space-between;gap:24px;font-family:var(--display);font-size:clamp(18px,2vw,23px);font-weight:600;color:#fff;transition:color .25s,letter-spacing .4s var(--ease)}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item summary:hover{color:var(--gold2);letter-spacing:.01em}
+.faq-ic{width:20px;height:20px;flex-shrink:0;position:relative}
+.faq-ic::before,.faq-ic::after{content:'';position:absolute;background:var(--gold);border-radius:2px;transition:transform .35s var(--ease),opacity .25s}
+.faq-ic::before{top:9px;left:0;width:20px;height:1.5px}
+.faq-ic::after{top:0;left:9px;width:1.5px;height:20px}
+.faq-item[open] .faq-ic::after{transform:scaleY(0);opacity:0}
+.faq-item[open] summary{color:var(--gold2)}
+.faq-a{overflow:hidden;font-size:14.5px;color:var(--mute-d);line-height:1.92;font-weight:300;padding:0 40px 28px 4px;max-width:680px}
+.faq-item[open] .faq-a{animation:faqIn .5s var(--ease) both}
+@keyframes faqIn{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:none}}
+
+/* ── ACCESIBILIDAD ── */
+a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible,.tipo-cell:focus-visible,.pq-cell:focus-visible,.sv-row:focus-visible{outline:2px solid var(--gold2);outline-offset:3px;border-radius:2px}
+.skip-link{position:absolute;left:-9999px;top:0;z-index:10001;background:var(--gold);color:var(--B);padding:11px 20px;font-family:var(--sans);font-size:12px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;text-decoration:none}
+.skip-link:focus{left:12px;top:12px}
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;animation-delay:0ms!important;transition-duration:.001ms!important;transition-delay:0ms!important}
+  html{scroll-behavior:auto!important}
+  *{cursor:auto!important}
+  #cur,#pg-cur{display:none!important}
+  .rv,.wipe,.eyebrow,.wr-i{opacity:1!important;transform:none!important;clip-path:none!important}
+  .eyebrow::before{transform:scaleX(1)!important}
+  .h-bg{transform:none!important}
+  .testi-track{animation:none!important;transform:none!important}
+  .testi-marquee{overflow-x:auto;-webkit-mask-image:none;mask-image:none}
+  .h-bg{animation:none!important;scale:none!important;translate:none!important}
+  .h-tagline-gold{animation:none!important}
+  .h-embers{display:none!important}
+  .sv-img{clip-path:none!important}
+  #spot{display:none!important}
+  .wa-float::before{animation:none!important;display:none}
+  .ncta,.btn-gold{animation:none!important;box-shadow:0 6px 20px rgba(201,162,82,.34)!important}
+  .ncta::after,.btn-gold::after{display:none!important}
+}
+
+/* ── MOBILE ── */
+@media(max-width:1100px){.tipo-cell{padding:42px 32px}}
+@media(max-width:860px){
+  nav,nav.s{padding:14px 20px}
+  .nmid,.ncta{display:none}
+  .n-burger{display:flex}
+  html{cursor:auto}
+  #cur,#pg-cur{display:none}
+  *{cursor:auto!important}
+  
+  .h-ghost{font-size:min(42vw,180px);bottom:5%}
+  #hero{height:auto;min-height:100svh;padding-top:100px;padding-bottom:64px}
+  .h-main{padding:0 24px}
+  .h-mark{width:78px}
+  .h-word{font-size:20px;letter-spacing:.3em;text-indent:.3em}
+  .h-tagline{font-size:clamp(38px,11.5vw,62px)}
+  .h-sub{max-width:88vw}
+  .h-bar{flex-direction:column;gap:12px;padding-top:32px;width:100%;max-width:340px}
+  .h-bar .btn-gold,.h-bar .btn-wire-w{width:100%;text-align:center;display:block}
+  .h-trust{gap:10px;font-size:10px;margin-top:26px;max-width:88vw}
+  
+  .mq-wrap::before,.mq-wrap::after{display:none}
+  .tipos-ghost{display:none}
+  .tipos-grid{grid-template-columns:1fr;border:none}
+  .tipo-cell{border-right:none;border-bottom:1px solid var(--bb);padding:36px 28px}
+  #tipos{padding-top:60px;padding-bottom:60px}
+  .tipo-cell:last-child{border-bottom:none}
+  #servicios .sv-intro{padding:50px 22px 34px;flex-direction:column;gap:12px}
+  .sv-intro-sub{text-align:left;max-width:100%}
+  .sv-split{grid-template-columns:1fr}
+  .sv-list{border-right:none}
+  .sv-row{padding:26px 24px;grid-template-columns:38px 1fr 18px}
+  .sv-img{order:-1}
+  .sv-img img{min-height:260px;height:260px}
+  #proyectos{padding:64px 24px}
+  .sec-head{flex-direction:column;align-items:flex-start;gap:10px;margin-bottom:30px}
+  .pg{grid-template-columns:1fr 1fr;grid-template-rows:auto}
+  .pi.tall{grid-row:span 2}
+  .pi img{height:210px}
+  .pi.tall img{height:100%}
+  .dat-grid{grid-template-columns:1fr}
+  .dat-left{padding:54px 22px;border-right:none;border-bottom:1px solid var(--bw)}
+  .dat-right img{min-height:280px;height:280px}
+  .d-n{font-size:clamp(52px,13vw,70px)}
+  #proceso{padding:64px 24px}
+  .proc-ghost{display:none}
+  .proc-cols{grid-template-columns:1fr 1fr;gap:40px 28px}
+  .proc-cols::before{display:none}
+  .nos-grid{grid-template-columns:1fr}
+  .nos-img-main{height:260px}
+  .nos-img-row img{height:130px}
+  .nos-txt{padding:52px 28px;border-left:none;border-top:1px solid var(--bw)}
+  .nos-txt-ghost{display:none}
+  #porq{padding:64px 24px}
+  .porq-ghost{display:none}
+  .pq-grid{grid-template-columns:1fr}
+  .pq-cell{border-right:none;border-bottom:1px solid var(--bb);padding:40px 28px}
+  .pq-cell:last-child{border-bottom:none}
+  #testi{padding:60px 24px}
+  .testi-marquee{margin-top:34px}
+  .tcard{flex:0 0 80vw;width:80vw;padding:28px 24px 24px}
+  .testi-track{gap:16px}
+  @keyframes testiScroll{from{transform:translateX(0)}to{transform:translateX(calc(-50% - 8px))}}
+  #faq{padding:60px 24px}
+  .faq-ghost{display:none}
+  .faq-list{margin-top:32px}
+  .faq-item summary{padding:22px 2px;gap:16px}
+  .faq-a{padding:0 8px 24px 2px}
+  .ct-grid{grid-template-columns:1fr;padding:52px 28px;gap:48px}
+  .f-row{grid-template-columns:1fr;gap:0}
+  footer{grid-template-columns:1fr;text-align:center;gap:14px;padding:28px 24px}
+  .f-links{justify-content:center}
+  .f-logo{justify-content:center}
+  .wa-float{right:14px;bottom:14px;width:46px;height:46px}
+  .ig-float{right:14px;bottom:70px;width:46px;height:46px}
+  .eyebrow::before{display:none}
+}
+@media(max-width:480px){
+  .pg{grid-template-columns:1fr;grid-template-rows:auto}
+  .pi.tall{grid-row:auto}
+  .pi img,.pi.tall img{height:200px}
+  .proc-cols{grid-template-columns:1fr}
+  .sv-row{grid-template-columns:32px 1fr 16px}
+}
+</style>
+</head>
+<body>
+<!-- ── LUMEN EMBLEM (reusable vector mark) ── -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="lmGold" x1="0" y1="0" x2="0.25" y2="1">
+      <stop offset="0" stop-color="#F2DCA0"/>
+      <stop offset="0.5" stop-color="#D9B45F"/>
+      <stop offset="1" stop-color="#B0832F"/>
+    </linearGradient>
+    <radialGradient id="lmFlare" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFF7E2"/>
+      <stop offset="0.22" stop-color="#FBE7AC"/>
+      <stop offset="0.6" stop-color="rgba(226,192,122,0)"/>
+      <stop offset="1" stop-color="rgba(226,192,122,0)"/>
+    </radialGradient>
+    <symbol id="lumenMark" viewBox="0 0 120 120">
+      <circle cx="60" cy="58" r="46" fill="none" stroke="url(#lmGold)" stroke-width="1.1" opacity="0.88"/>
+      <g fill="none" stroke="url(#lmGold)" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round" opacity="0.94">
+        <path d="M60 93 C 53 75 55 55 60 45 C 65 55 67 75 60 93 Z"/>
+        <path d="M60 93 C 51 81 42 67 43 53 C 50 63 57 79 60 93 Z"/>
+        <path d="M60 93 C 69 81 78 67 77 53 C 70 63 63 79 60 93 Z"/>
+        <path d="M60 94 C 47 87 31 79 27 66 C 39 73 53 85 60 94 Z"/>
+        <path d="M60 94 C 73 87 89 79 93 66 C 81 73 67 85 60 94 Z"/>
+      </g>
+      <line x1="60" y1="60" x2="60" y2="91" stroke="url(#lmGold)" stroke-width="1" stroke-linecap="round" opacity="0.65"/>
+      <line x1="60" y1="49" x2="60" y2="11" stroke="url(#lmGold)" stroke-width="1.5" stroke-linecap="round"/>
+      <circle cx="60" cy="51" r="21" fill="url(#lmFlare)"/>
+      <g stroke="#FBE7AC" stroke-width="0.9" stroke-linecap="round" opacity="0.92">
+        <line x1="60" y1="51" x2="60" y2="20"/>
+        <line x1="60" y1="51" x2="60" y2="72"/>
+        <line x1="60" y1="51" x2="42" y2="51"/>
+        <line x1="60" y1="51" x2="78" y2="51"/>
+        <line x1="60" y1="51" x2="48" y2="39"/>
+        <line x1="60" y1="51" x2="72" y2="39"/>
+        <line x1="60" y1="51" x2="50" y2="61"/>
+        <line x1="60" y1="51" x2="70" y2="61"/>
+      </g>
+      <circle cx="60" cy="51" r="2.5" fill="#FFF7E2"/>
+    </symbol>
+  </defs>
+</svg>
+<a class="skip-link" href="#servicios">Saltar al contenido</a>
+<div id="spbar" style="position:fixed;top:0;left:0;height:2px;background:linear-gradient(90deg,var(--gold),var(--gold2));z-index:10000;width:0%;transition:width .1s linear;pointer-events:none"></div>
+
+<div id="spot" aria-hidden="true"></div>
+<div id="cur"></div>
+<div id="pg-cur"><div class="pg-cur-inner">VER →</div></div>
+
+<nav id="nav">
+  <a class="n-logo" href="#">
+    <svg class="n-mark" viewBox="0 0 120 120"><use href="#lumenMark"/></svg>
+    <span class="n-logo-text">Lumen<span>Producciones</span></span>
+  </a>
+  <ul class="nmid">
+    <li><a href="#servicios"><span>Servicios</span><span class="clone">Servicios</span></a></li>
+    <li><a href="#proyectos"><span>Proyectos</span><span class="clone">Proyectos</span></a></li>
+    <li><a href="#nosotros"><span>Nosotros</span><span class="clone">Nosotros</span></a></li>
+    <li><a href="#contacto"><span>Contacto</span><span class="clone">Contacto</span></a></li>
+  </ul>
+  <a class="ncta" href="#contacto"><span>Cotizar evento</span></a>
+  <button class="n-burger" id="burger" aria-label="Menú"><span></span><span></span><span></span></button>
+</nav>
+
+<div class="n-mobile-menu" id="mobileMenu">
+  <a href="#servicios" onclick="closeMenu()">Servicios</a>
+  <a href="#proyectos" onclick="closeMenu()">Proyectos</a>
+  <a href="#nosotros" onclick="closeMenu()">Nosotros</a>
+  <a href="#contacto" onclick="closeMenu()">Contacto</a>
+  <a class="btn-gold" href="#contacto" onclick="closeMenu()" style="font-size:11px;padding:15px 44px;margin-top:4px"><span>Cotizar evento</span></a>
+</div>
+
+<section id="hero">
+  <div class="h-bg"></div>
+  <div class="h-grad"></div>
+  <div class="h-embers" id="hEmbers" aria-hidden="true"></div>
+  <div class="h-ghost">LUMEN</div>
+  <div class="h-main">
+    <div class="h-accent"></div>
+    <div class="h-lockup rv" style="animation-fill-mode:both">
+      <svg class="h-mark" viewBox="0 0 120 120"><use href="#lumenMark"/></svg>
+      <div class="h-word">Lumen<span>Producciones</span></div>
+    </div>
+    <h1 class="h-tagline" id="hero-tag">Iluminamos<br><span class="h-tagline-gold">momentos.</span></h1>
+    <p class="h-sub" id="hero-sub">Producción integral de eventos corporativos y sociales en Lima y todo el Perú. Iluminación, sonido, pantallas LED y escenografía, de principio a fin.</p>
+  </div>
+  <div class="h-bar">
+    <a class="btn-gold" href="#contacto"><span>Cotiza tu evento</span></a>
+    <a class="btn-wire-w" href="#proyectos">Ver producciones</a>
+  </div>
+  <div class="h-trust" aria-hidden="false">
+    <span><strong>+120</strong> eventos producidos</span>
+    <span class="h-trust-sep"></span>
+    <span><strong>8</strong> años de experiencia</span>
+    <span class="h-trust-sep"></span>
+    <span>Respuesta en <strong>24 h</strong></span>
+  </div>
+</section>
+
+<section id="tipos">
+  <div class="tipos-ghost">EVENTOS</div>
+  <div class="tipos-grid">
+    <div class="tipo-cell rv"><div class="tipo-num">01</div><div class="tipo-title">Eventos Corporativos</div><p class="tipo-body">Lanzamientos de marca, cenas de gala, activaciones BTL y eventos de empresa — con el profesionalismo y la imagen que tu marca representa.</p></div>
+    <div class="tipo-cell rv"><div class="tipo-num">02</div><div class="tipo-title">MICE</div><p class="tipo-body">Congresos, convenciones, conferencias y ferias. Reuniones e incentivos producidos de principio a fin, a la altura de tu organización.</p></div>
+    <div class="tipo-cell rv"><div class="tipo-num">03</div><div class="tipo-title">Eventos Sociales</div><p class="tipo-body">Bodas, aniversarios y celebraciones privadas — con la emoción y el detalle que cada momento especial merece.</p></div>
+  </div>
+</section>
+
+<section id="servicios">
+  <div class="sv-intro">
+    <div>
+      <div class="eyebrow rv">Lo que creamos</div>
+      <h2 class="h2-w wipe">Cada evento,<br>una experiencia distinta.</h2>
+    </div>
+    <p class="sv-intro-sub rv">No organizamos eventos. Creamos experiencias diseñadas para sorprender, emocionar y conectar.</p>
+  </div>
+  <div class="sv-split">
+    <div class="sv-list">
+      <div class="sv-row act rv" data-img="img/corporativo.webp"><span class="sv-rn">01</span><div class="sv-rbody"><div class="sv-rt">Eventos Corporativos</div><div class="sv-rsub-tag">Profesionalismo al más alto nivel</div><div class="sv-rsub"><p>Tu marca merece un evento que comunique con la misma fuerza que tus mejores campañas. Producción integral de principio a fin.</p><ul class="sv-items"><li>Lanzamientos de marca</li><li>Cenas de gala</li><li>Activaciones BTL</li><li>Aniversarios de empresa</li><li>Premiaciones</li><li>Fiestas corporativas</li></ul><a class="sv-link" href="#contacto">Cotizar evento corporativo</a></div></div><span class="sv-rarr">→</span></div>
+      <div class="sv-row rv" data-img="img/congreso.webp"><span class="sv-rn">02</span><div class="sv-rbody"><div class="sv-rt">MICE</div><div class="sv-rsub-tag">Reuniones, incentivos, congresos y ferias</div><div class="sv-rsub"><p>Producimos encuentros de gran formato con logística impecable: escenografía, sonido, iluminación y pantallas LED, todo coordinado por un solo equipo.</p><ul class="sv-items"><li>Congresos y convenciones</li><li>Conferencias</li><li>Ferias y exposiciones</li><li>Reuniones e incentivos</li><li>Seminarios y summits</li><li>Producción técnica integral</li></ul><a class="sv-link" href="#contacto">Cotizar mi congreso</a></div></div><span class="sv-rarr">→</span></div>
+      <div class="sv-row rv" data-img="img/social.webp"><span class="sv-rn">03</span><div class="sv-rbody"><div class="sv-rt">Eventos Sociales</div><div class="sv-rsub-tag">Celebraciones que dejan huella</div><div class="sv-rsub"><p>Cada celebración es única. Diseñamos cada detalle para que tus invitados vivan una experiencia que recuerden siempre.</p><ul class="sv-items"><li>Bodas y compromisos</li><li>Quinceañeros</li><li>Aniversarios</li><li>Cumpleaños especiales</li><li>Graduaciones</li><li>Celebraciones privadas</li></ul><a class="sv-link" href="#contacto">Cotizar mi celebración</a></div></div><span class="sv-rarr">→</span></div>
+    </div>
+    <div class="sv-img"><img id="sv-img" src="img/corporativo.webp" loading="lazy" decoding="async" alt="Evento corporativo producido por Lumen Producciones"/></div>
+  </div>
+</section>
+
+<section id="proyectos">
+  <div class="sec-head">
+    <div><div class="eyebrow rv">Proyectos</div><h2 class="h2-b wipe">Lo que producimos.</h2></div>
+    <a class="sec-lnk rv" href="#contacto">Producir mi evento</a>
+  </div>
+  <div class="pg">
+    <div class="pi tall rv"><img src="img/congreso.webp" alt="Escenario y panel para congreso corporativo" loading="eager"/><div class="pi-info"><div class="pi-cat">Congreso · MICE</div><div class="pi-name">Escenario &amp; panel ejecutivo</div><div class="pi-det">Lima · Producción integral</div></div></div>
+    <div class="pi rv"><img src="img/corporativo.webp" alt="Cena de gala corporativa con montaje y decoración" loading="lazy"/><div class="pi-info"><div class="pi-cat">Evento corporativo</div><div class="pi-name">Cena de gala empresarial</div><div class="pi-det">Lima · 200 invitados</div></div></div>
+    <div class="pi rv"><img src="img/gala.webp" alt="Gala empresarial, brindis de fin de año" loading="lazy"/><div class="pi-info"><div class="pi-cat">Gala empresarial</div><div class="pi-name">Brindis de fin de año</div><div class="pi-det">Lima · 800 asistentes</div></div></div>
+    <div class="pi rv"><img src="img/lounge.webp" alt="Lounge y zona VIP para activación de marca" loading="lazy"/><div class="pi-info"><div class="pi-cat">Activación de marca</div><div class="pi-name">Lounge &amp; zona VIP</div><div class="pi-det">Lima · BTL</div></div></div>
+    <div class="pi rv"><img src="img/produccion.webp" alt="Iluminación y escenografía de producción técnica" loading="lazy"/><div class="pi-info"><div class="pi-cat">Producción técnica</div><div class="pi-name">Iluminación &amp; escenografía</div><div class="pi-det">Lima y provincias</div></div></div>
+    <div class="pi rv"><img src="img/recepcion.webp" alt="Ambientación de bienvenida en recepción corporativa" loading="lazy"/><div class="pi-info"><div class="pi-cat">Recepción</div><div class="pi-name">Cóctel &amp; bienvenida</div><div class="pi-det">Lima</div></div></div>
+    <div class="pi rv"><img src="img/social.webp" alt="Banquete y diseño floral de boda" loading="lazy"/><div class="pi-info"><div class="pi-cat">Evento social</div><div class="pi-name">Banquete &amp; diseño floral</div><div class="pi-det">Lima · Boda</div></div></div>
+    <div class="pi rv"><img src="img/floral.webp" alt="Centros de mesa y diseño floral de evento" loading="lazy"/><div class="pi-info"><div class="pi-cat">Diseño floral</div><div class="pi-name">Centros de mesa &amp; decoración</div><div class="pi-det">Eventos sociales</div></div></div>
+  </div>
+</section>
+
+<section id="datos">
+  <div class="dat-grid">
+    <div class="dat-left">
+      <div class="d-ghost-bg" id="dGhost">120</div>
+      <div class="eyebrow rv">En números</div>
+      <h2 class="h2-w wipe">8 años creando<br>experiencias memorables.</h2>
+      <div class="dat-stats">
+        <div class="d-item rv"><div class="d-n"><span class="cnt" data-to="120">0</span><sup>+</sup></div><div class="d-txt"><span class="d-lbl">Eventos producidos</span><span class="d-sm">Sociales y corporativos<br>en Lima y provincias</span></div></div>
+        <div class="d-item rv"><div class="d-n"><span class="cnt" data-to="8">0</span><sup>+</sup></div><div class="d-txt"><span class="d-lbl">Años de experiencia</span><span class="d-sm">Construyendo eventos<br>de alto impacto desde 2017</span></div></div>
+        <div class="d-item rv"><div class="d-n"><span class="cnt" data-to="5">0</span><sup>+</sup></div><div class="d-txt"><span class="d-lbl">Ciudades en Perú</span><span class="d-sm">Lima, Arequipa, Cusco,<br>Trujillo y más</span></div></div>
+      </div>
+    </div>
+    <div class="dat-right">
+      <img class="rv" src="img/venue.webp" alt="Salón de eventos preparado por Lumen Producciones" loading="lazy"/>
+      <div class="dat-quote-box rv"><p class="dq-t">"No organizamos eventos. Creamos experiencias que <em>sorprenden, emocionan y conectan.</em>"</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="proceso">
+  <div class="proc-ghost">PROCESO</div>
+  <div class="sec-head">
+    <div><div class="eyebrow rv">Cómo trabajamos</div><h2 class="h2-b wipe">Un proceso claro.<br>Resultados extraordinarios.</h2></div>
+    <a class="sec-lnk rv" href="#contacto">Iniciar mi evento</a>
+  </div>
+  <div class="proc-cols">
+    <div class="pc rv"><div class="pc-dot"></div><div class="pc-n">01</div><div class="pc-title">Escucha activa</div><p class="pc-body">Entendemos tus objetivos, tu audiencia y la experiencia que quieres crear. Cada proyecto es único.</p></div>
+    <div class="pc rv"><div class="pc-dot"></div><div class="pc-n">02</div><div class="pc-title">Propuesta creativa</div><p class="pc-body">Diseñamos el concepto, el programa y la producción. Propuesta formal en 24 horas.</p></div>
+    <div class="pc rv"><div class="pc-dot"></div><div class="pc-n">03</div><div class="pc-title">Producción y montaje</div><p class="pc-body">Coordinamos proveedores, montamos con precisión y realizamos ensayo previo al evento.</p></div>
+    <div class="pc rv"><div class="pc-dot"></div><div class="pc-n">04</div><div class="pc-title">El gran día</div><p class="pc-body">Nuestro equipo dirige cada momento en vivo. Tú lo vives. Nosotros lo hacemos posible.</p></div>
+  </div>
+</section>
+
+<section id="nosotros">
+  <div class="nos-grid">
+    <div class="nos-imgs">
+      <img class="nos-img-main rv" src="img/nos-coctel.webp" decoding="async" alt="Cóctel corporativo y zona lounge producidos por Lumen Producciones" loading="lazy"/>
+      <div class="nos-img-row">
+        <img class="rv" src="img/nos-consola.webp" decoding="async" alt="Consola de control de sonido e iluminación en un evento" loading="lazy"/>
+        <img class="rv" src="img/nos-escenario.webp" decoding="async" alt="Escenario corporativo con pantalla LED y atril" loading="lazy"/>
+      </div>
+    </div>
+    <div class="nos-txt">
+      <div class="nos-txt-ghost">LUMEN</div>
+      <div class="eyebrow rv">Quiénes somos</div>
+      <h2 class="h2-w wipe">Creamos experiencias<br>que dejan huella.</h2>
+      <div class="nos-p rv"><p>Somos una empresa especializada en la planificación, diseño y producción integral de eventos sociales, corporativos y experienciales en Lima y todo el Perú.</p><p>Transformamos ideas en experiencias memorables, cuidando cada detalle con creatividad, organización y excelencia operativa.</p></div>
+      <div class="chips rv"><span class="chip">Atención personalizada</span><span class="chip">Producción de principio a fin</span><span class="chip">Proveedores estratégicos</span><span class="chip">Desde 2017</span></div>
+      <a class="btn-wire-b rv" href="#contacto" style="align-self:flex-start;margin-top:28px">Cotizar mi evento</a>
+    </div>
+  </div>
+</section>
+
+<section id="porq">
+  <div class="porq-ghost">POR QUÉ</div>
+  <div class="sec-head">
+    <div><div class="eyebrow rv">Por qué elegirnos</div><h2 class="h2-b wipe">Compromiso absoluto<br>con cada evento.</h2></div>
+    <p class="rv" style="font-size:13.5px;color:var(--mute-d);max-width:260px;text-align:right;line-height:1.88;font-weight:300">Creatividad, planificación y ejecución impecable para resultados extraordinarios.</p>
+  </div>
+  <div class="pq-grid">
+    <div class="pq-cell rv"><svg class="pq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg><div class="pq-title">Atención personalizada</div><p class="pq-body">Cada cliente tiene una historia única. Nos tomamos el tiempo de escucharla antes de proponer cualquier solución.</p></div>
+    <div class="pq-cell rv"><svg class="pq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg><div class="pq-title">Producción integral</div><p class="pq-body">Concepto, logística, producción técnica y coordinación en tiempo real — todo bajo un solo equipo responsable.</p></div>
+    <div class="pq-cell rv"><svg class="pq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg><div class="pq-title">Equipo especializado</div><p class="pq-body">Productores, directores creativos, técnicos y coordinadores con años de experiencia en eventos de alto nivel.</p></div>
+  </div>
+</section>
+
+<section id="testi">
+  <div class="sec-head">
+    <div><div class="eyebrow rv">Testimonios</div><h2 class="h2-w wipe">Quienes confían,<br>vuelven a confiar.</h2></div>
+    <p class="rv" style="font-size:13.5px;color:var(--mute-l);max-width:260px;text-align:right;line-height:1.88;font-weight:300">La mejor carta de presentación son los eventos que ya hemos hecho realidad.</p>
+  </div>
+  <div class="testi-marquee">
+    <div class="testi-track" id="testiTrack">
+      <div class="tcard">
+        <div class="tcard-q">&ldquo;</div>
+        <p class="tcard-body">Confiamos a Lumen el lanzamiento de nuestra nueva línea y superaron cada expectativa. Producción impecable y un equipo que resuelve todo.</p>
+        <div class="tcard-foot"><img class="tcard-ava" src="img/testi1.webp" width="46" height="46" loading="lazy" alt="Rocío Vásquez"/><div class="tcard-meta"><span class="tcard-name">Rocío Vásquez</span><span class="tcard-role">Gerente de Marketing · Retail</span></div></div>
+      </div>
+      <div class="tcard">
+        <div class="tcard-q">&ldquo;</div>
+        <p class="tcard-body">Coordinaron un congreso de más de 1,000 personas sin un solo contratiempo. Profesionales, creativos y absolutamente confiables.</p>
+        <div class="tcard-foot"><img class="tcard-ava" src="img/testi2.webp" width="46" height="46" loading="lazy" alt="Carlos Mendoza"/><div class="tcard-meta"><span class="tcard-name">Carlos Mendoza</span><span class="tcard-role">Director de Eventos · Sector salud</span></div></div>
+      </div>
+      <div class="tcard">
+        <div class="tcard-q">&ldquo;</div>
+        <p class="tcard-body">Nuestra boda fue tal como la soñamos. Cuidaron cada detalle y la emoción se sintió de principio a fin.</p>
+        <div class="tcard-foot"><img class="tcard-ava" src="img/testi3.webp" width="46" height="46" loading="lazy" alt="María Fernanda Ríos"/><div class="tcard-meta"><span class="tcard-name">María Fernanda Ríos</span><span class="tcard-role">Boda · Lima</span></div></div>
+      </div>
+      <div class="tcard">
+        <div class="tcard-q">&ldquo;</div>
+        <p class="tcard-body">Organizaron nuestra cena de aniversario corporativo en tiempo récord. El montaje y la iluminación dejaron a todos hablando.</p>
+        <div class="tcard-foot"><img class="tcard-ava" src="img/testi4.webp" width="46" height="46" loading="lazy" alt="Javier Salas"/><div class="tcard-meta"><span class="tcard-name">Javier Salas</span><span class="tcard-role">Gerente General · Inmobiliaria</span></div></div>
+      </div>
+      <div class="tcard">
+        <div class="tcard-q">&ldquo;</div>
+        <p class="tcard-body">Trabajar con ellos fue tranquilidad total. Propusieron ideas que no habíamos imaginado y ejecutaron sin fallas.</p>
+        <div class="tcard-foot"><img class="tcard-ava" src="img/testi5.webp" width="46" height="46" loading="lazy" alt="Daniela Rojas"/><div class="tcard-meta"><span class="tcard-name">Daniela Rojas</span><span class="tcard-role">Jefa de RR. HH. · Corporativo</span></div></div>
+      </div>
+      <div class="tcard">
+        <div class="tcard-q">&ldquo;</div>
+        <p class="tcard-body">Llevamos tres eventos con Lumen y siempre entregan más de lo prometido. Son nuestro equipo de confianza.</p>
+        <div class="tcard-foot"><img class="tcard-ava" src="img/testi6.webp" width="46" height="46" loading="lazy" alt="Andrés Paredes"/><div class="tcard-meta"><span class="tcard-name">Andrés Paredes</span><span class="tcard-role">Fundador · Startup tecnológica</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="faq-ghost">FAQ</div>
+  <div class="sec-head">
+    <div><div class="eyebrow rv">Preguntas frecuentes</div><h2 class="h2-b wipe">Todo lo que necesitas<br>saber antes de empezar.</h2></div>
+    <a class="sec-lnk rv" href="#contacto">Tengo otra pregunta</a>
+  </div>
+  <div class="faq-list">
+    <details class="faq-item rv"><summary>¿Qué tipos de eventos producen?<span class="faq-ic"></span></summary><div class="faq-a">Producimos eventos sociales (bodas, quinceañeros, aniversarios), eventos corporativos (conferencias, lanzamientos, convenciones, activaciones BTL) y producción técnica integral. Si tu evento combina varias de estas necesidades, lo coordinamos todo bajo un solo equipo.</div></details>
+    <details class="faq-item rv"><summary>¿Atienden eventos fuera de Lima?<span class="faq-ic"></span></summary><div class="faq-a">Sí. Trabajamos en Lima y en todo el Perú, con experiencia en ciudades como Arequipa, Cusco y Trujillo. Nos encargamos de la logística y el montaje en provincias para que tú no te preocupes por los traslados.</div></details>
+    <details class="faq-item rv"><summary>¿Con cuánta anticipación debo contratarlos?<span class="faq-ic"></span></summary><div class="faq-a">Lo ideal es de 1 a 3 meses de anticipación para eventos medianos y grandes, pero nos adaptamos a tus tiempos. Cuéntanos tu fecha y te diremos con honestidad qué es posible lograr.</div></details>
+    <details class="faq-item rv"><summary>¿Ofrecen producción integral o solo coordinación?<span class="faq-ic"></span></summary><div class="faq-a">Ofrecemos producción integral: conceptualización creativa, escenografía, sonido, iluminación, pantallas LED, artistas, fotografía, video y logística. También podemos sumarnos a un equipo ya existente para reforzar la parte técnica o creativa.</div></details>
+    <details class="faq-item rv"><summary>¿Cómo es el proceso de cotización?<span class="faq-ic"></span></summary><div class="faq-a">Muy simple. Nos cuentas tu idea por el formulario o WhatsApp, conversamos sobre objetivos y presupuesto, y en menos de 24 horas recibes una propuesta personalizada — sin costo y sin compromiso.</div></details>
+  </div>
+</section>
+
+<section id="contacto">
+  <div class="ct-grid">
+    <div>
+      <div class="eyebrow rv">Hablemos</div>
+      <h2 class="h2-w wipe" style="margin-bottom:14px">¿Tienes un evento<br>en mente?</h2>
+      <p class="ct-left-p rv">Cuéntanos tu idea. Respondemos en menos de 24 h con una propuesta personalizada, sin compromisos.</p>
+      <div class="ct-fields rv">
+        <div class="ct-f"><svg class="ct-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="m22 6-10 7L2 6"/></svg><div class="ct-val"><a href="mailto:ventas@lumenproducciones.com.pe">ventas@lumenproducciones.com.pe</a></div></div>
+        <div class="ct-f"><svg class="ct-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.79 19.79 0 0 1 11.69 19 19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-2.09-8.67A2 2 0 0 1 4.6 1.27h3a2 2 0 0 1 2 1.72c.128.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 6.16 6.16l.97-.97a2 2 0 0 1 2.11-.45c.907.339 1.85.572 2.81.7A2 2 0 0 1 22 16.92z"/></svg><div class="ct-val"><a href="https://wa.me/51996474586">+51 996 474 586</a></div></div>
+        <div class="ct-f"><svg class="ct-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><div class="ct-val">Lima, Perú</div></div>
+      </div>
+      <div class="ct-social rv">
+        <a class="soc-btn" href="https://wa.me/51996474586?text=Hola%2C%20quiero%20cotizar%20un%20evento" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 2C6.48 2 2 6.48 2 12c0 1.852.502 3.587 1.379 5.079L2 22l5.05-1.362A9.937 9.937 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18c-1.66 0-3.212-.508-4.495-1.376L4 19.5l.9-3.42A7.94 7.94 0 0 1 4 12c0-4.41 3.59-8 8-8s8 3.59 8 8-3.59 8-8 8z"/></svg><span>WhatsApp</span></a>
+        <a class="soc-btn" href="https://www.instagram.com/lumenproducciones.pe/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg><span>@lumenproducciones.pe</span></a>
+      </div>
+    </div>
+    <form id="ctform" onsubmit="sendForm(event)" novalidate>
+      <!-- FormSubmit config — el cliente debe (1) poner su email real en CONTACT_EMAIL del script y (2) confirmar el email de activación de FormSubmit la primera vez -->
+      <input type="hidden" name="_subject" value="Nueva solicitud de cotización — Lumen Producciones"/>
+      <input type="hidden" name="_template" value="table"/>
+      <input type="hidden" name="_captcha" value="false"/>
+      <input type="text" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0"/>
+      <div class="f-row">
+        <div class="fg"><label for="fname">Nombre</label><input id="fname" name="nombre" type="text" placeholder="Tu nombre completo" autocomplete="name" required/></div>
+        <div class="fg"><label for="ftel">Teléfono / WhatsApp</label><input id="ftel" name="telefono" type="tel" inputmode="tel" autocomplete="tel" placeholder="+51 9XX XXX XXX"/></div>
+      </div>
+      <div class="f-row">
+        <div class="fg"><label for="femail">Email</label><input id="femail" name="email" type="email" inputmode="email" autocomplete="email" placeholder="tu@correo.com" required/></div>
+        <div class="fg"><label for="femp">Empresa (si aplica)</label><input id="femp" name="empresa" type="text" autocomplete="organization" placeholder="Razón social o empresa"/></div>
+      </div>
+      <div class="fg"><label for="ftipo">Tipo de evento</label>
+        <select id="ftipo" name="tipo_evento"><option value="">Selecciona una opción</option><optgroup label="Eventos Corporativos"><option>Lanzamiento de marca</option><option>Cena de gala</option><option>Activación BTL</option><option>Aniversario de empresa</option><option>Premiación interna</option><option>Fiesta corporativa</option></optgroup><optgroup label="MICE"><option>Congreso / Convención</option><option>Conferencia</option><option>Feria / Exposición</option><option>Reunión / Incentivo</option><option>Seminario / Summit</option></optgroup><optgroup label="Eventos Sociales"><option>Boda</option><option>Quinceañero</option><option>Aniversario</option><option>Cumpleaños especial</option><option>Graduación</option><option>Celebración privada</option></optgroup><optgroup label="Producción"><option>Producción técnica integral</option><option>Otro tipo de evento</option></optgroup></select>
+      </div>
+      <div class="f-row">
+        <div class="fg"><label for="ffecha">Fecha tentativa</label><input id="ffecha" name="fecha_tentativa" type="text" autocomplete="off" placeholder="Ej. Marzo 2026 o por definir"/></div>
+        <div class="fg"><label for="finv">Nº de invitados</label><input id="finv" name="invitados" type="text" inputmode="numeric" placeholder="Ej. 150"/></div>
+      </div>
+      <div class="fg"><label for="fmsg">Cuéntanos sobre tu evento</label><textarea id="fmsg" name="mensaje" placeholder="Lugar tentativo, concepto, servicios que necesitas (luz, sonido, LED, catering...)"></textarea></div>
+      <button type="submit" class="btn-sub" id="sbtn"><div class="sbtn-spinner"></div><span>Enviar solicitud</span><svg class="sbtn-ico" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="16" height="16"><path d="M5 12h14M12 5l7 7-7 7"/></svg><svg class="sbtn-check" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <a class="f-logo" href="#">
+    <svg class="f-mark" viewBox="0 0 120 120"><use href="#lumenMark"/></svg>
+    <span>Lumen Producciones</span>
+  </a>
+  <p class="f-copy">© 2026 Lumen Producciones · Lima, Perú<br>Iluminamos momentos, Creamos recuerdos</p>
+  <div class="f-links">
+    <a href="https://www.instagram.com/lumenproducciones.pe/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>Instagram</a>
+    <a href="https://wa.me/51996474586" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967c-.273-.099-.471-.148-.67.15c-.197.297-.767.966-.94 1.164c-.173.199-.347.223-.644.075c-.297-.15-1.255-.463-2.39-1.475c-.883-.788-1.48-1.761-1.653-2.059c-.173-.297-.018-.458.13-.606c.134-.133.298-.347.446-.52c.149-.174.198-.298.298-.497c.099-.198.05-.371-.025-.52c-.075-.149-.669-1.612-.916-2.207c-.242-.579-.487-.5-.669-.51c-.173-.008-.371-.01-.57-.01c-.198 0-.52.074-.792.372c-.272.297-1.04 1.016-1.04 2.479c0 1.462 1.065 2.875 1.213 3.074c.149.198 2.096 3.2 5.077 4.487c.709.306 1.262.489 1.694.625c.712.227 1.36.195 1.871.118c.571-.085 1.758-.719 2.006-1.413c.248-.694.248-1.289.173-1.413c-.074-.124-.272-.198-.57-.347z"/><path d="M12 2C6.48 2 2 6.48 2 12c0 1.852.502 3.587 1.379 5.079L2 22l5.05-1.362A9.937 9.937 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18c-1.66 0-3.212-.508-4.495-1.376L4 19.5l.9-3.42A7.94 7.94 0 0 1 4 12c0-4.41 3.59-8 8-8s8 3.59 8 8-3.59 8-8 8z"/></svg>WhatsApp</a>
+  </div>
+</footer>
+
+<a class="ig-float" href="https://www.instagram.com/lumenproducciones.pe/" target="_blank" rel="noopener" aria-label="Instagram">
+  <svg width="20" height="20" fill="none" stroke="#fff" stroke-width="1.8" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.5" cy="6.5" r="1" fill="#fff" stroke="none"/></svg>
+</a>
+<a class="wa-float" href="https://wa.me/51996474586?text=Hola%2C%20quiero%20cotizar%20un%20evento" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg width="24" height="24" fill="#fff" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967c-.273-.099-.471-.148-.67.15c-.197.297-.767.966-.94 1.164c-.173.199-.347.223-.644.075c-.297-.15-1.255-.463-2.39-1.475c-.883-.788-1.48-1.761-1.653-2.059c-.173-.297-.018-.458.13-.606c.134-.133.298-.347.446-.52c.149-.174.198-.298.298-.497c.099-.198.05-.371-.025-.52c-.075-.149-.669-1.612-.916-2.207c-.242-.579-.487-.5-.669-.51c-.173-.008-.371-.01-.57-.01c-.198 0-.52.074-.792.372c-.272.297-1.04 1.016-1.04 2.479c0 1.462 1.065 2.875 1.213 3.074c.149.198 2.096 3.2 5.077 4.487c.709.306 1.262.489 1.694.625c.712.227 1.36.195 1.871.118c.571-.085 1.758-.719 2.006-1.413c.248-.694.248-1.289.173-1.413c-.074-.124-.272-.198-.57-.347z"/><path d="M12 2C6.48 2 2 6.48 2 12c0 1.852.502 3.587 1.379 5.079L2 22l5.05-1.362A9.937 9.937 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18c-1.66 0-3.212-.508-4.495-1.376L4 19.5l.9-3.42A7.94 7.94 0 0 1 4 12c0-4.41 3.59-8 8-8s8 3.59 8 8-3.59 8-8 8z"/></svg>
+</a>
+
+<script>
+/* ── SCROLL RESTORATION ── */
+if('scrollRestoration' in history){history.scrollRestoration='manual';}
+
+/* ── CURSOR ── */
+const cur=document.getElementById('cur');
+const pgCur=document.getElementById('pg-cur');
+const spot=document.getElementById('spot');
+let mx=0,my=0,spotOn=false;
+document.addEventListener('mousemove',e=>{
+  mx=e.clientX;my=e.clientY;
+  cur.style.left=mx+'px';cur.style.top=my+'px';
+  pgCur.style.left=mx+'px';pgCur.style.top=my+'px';
+  if(spot){
+    spot.style.setProperty('--mx',mx+'px');
+    spot.style.setProperty('--my',my+'px');
+    if(!spotOn){spot.classList.add('on');spotOn=true;}
+  }
+});
+document.querySelectorAll('a,button,summary,.tipo-cell,.pq-cell,.sv-row,.ncta,.sec-lnk,.soc-btn,.btn-sub,.btn-wire-b,.pi,.tcard').forEach(el=>{
+  el.addEventListener('mouseenter',()=>cur.classList.add('grow'));
+  el.addEventListener('mouseleave',()=>cur.classList.remove('grow'));
+});
+document.querySelectorAll('.pi').forEach(pi=>{
+  pi.addEventListener('mouseenter',()=>{cur.classList.add('project');pgCur.style.opacity='1';});
+  pi.addEventListener('mouseleave',()=>{cur.classList.remove('project');pgCur.style.opacity='0';});
+});
+
+/* ── HERO WORD REVEAL ── */
+function wrapWords(el){
+  const html=el.innerHTML;
+  const lines=html.split('<br>');
+  return lines.map(line=>{
+    const tag=line.match(/^<span[^>]*>/)&&line.match(/<\/span>$/);
+    if(tag){
+      const inner=line.replace(/^<span[^>]*>/,'').replace(/<\/span>$/,'');
+      const cls=line.match(/class="([^"]*)"/)?.[1]||'';
+      return `<span class="${cls}"><span class="wr"><span class="wr-i">${inner}</span></span></span>`;
+    }
+    return line.trim().split(' ').filter(Boolean).map(w=>`<span class="wr"><span class="wr-i">${w}</span></span>`).join(' ');
+  }).join('<br>');
+}
+const htag=document.getElementById('hero-tag');
+htag.innerHTML=wrapWords(htag);
+setTimeout(()=>{
+  htag.querySelectorAll('.wr').forEach((wr,i)=>setTimeout(()=>wr.classList.add('v'),260+i*120));
+},60);
+
+/* ── HERO PARALLAX ── */
+const hBg=document.querySelector('.h-bg');
+let pt=false;
+window.addEventListener('mousemove',e=>{
+  if(window.scrollY>280||pt)return;pt=true;
+  requestAnimationFrame(()=>{
+    const x=(e.clientX/window.innerWidth-.5)*18,y=(e.clientY/window.innerHeight-.5)*11;
+    hBg.style.translate=`${x}px ${y}px`;
+    pt=false;
+  });
+},{passive:true});
+
+/* ── MAGNETIC BUTTONS ── */
+document.querySelectorAll('.btn-gold,.btn-wire-w,.btn-sub,.btn-wire-b').forEach(btn=>{
+  btn.addEventListener('mousemove',e=>{
+    const r=btn.getBoundingClientRect();
+    const x=(e.clientX-r.left-r.width/2)*.28;
+    const y=(e.clientY-r.top-r.height/2)*.28;
+    btn.style.transform=`translate(${x}px,${y}px)`;
+  });
+  btn.addEventListener('mouseleave',()=>btn.style.transform='');
+});
+
+/* ── GHOST NUMBER updates on hover ── */
+const dGhost=document.getElementById('dGhost');
+const cnts=document.querySelectorAll('.cnt');
+cnts.forEach(c=>{
+  c.addEventListener('mouseenter',()=>{if(dGhost)dGhost.textContent=c.dataset.to;});
+});
+
+/* ── NAV + SCROLL PROGRESS ── */
+const nav=document.getElementById('nav');
+const spbar=document.getElementById('spbar');
+const navLinks=document.querySelectorAll('.nmid a');
+const secIds=['servicios','proyectos','nosotros','contacto'];
+function onScroll(){
+  nav.classList.toggle('s',scrollY>55);
+  /* progress bar */
+  const max=document.body.scrollHeight-innerHeight;
+  spbar.style.width=(max>0?(scrollY/max*100):0)+'%';
+  /* active nav link */
+  let current='';
+  secIds.forEach(id=>{
+    const el=document.getElementById(id);
+    if(el&&el.getBoundingClientRect().top<=100)current=id;
+  });
+  navLinks.forEach(a=>{
+    const href=a.getAttribute('href')?.replace('#','');
+    a.classList.toggle('active',href===current);
+  });
+}
+window.addEventListener('scroll',onScroll,{passive:true});
+
+/* ── MOBILE MENU ── */
+const burger=document.getElementById('burger');
+const mm=document.getElementById('mobileMenu');
+burger.addEventListener('click',()=>{
+  const o=burger.classList.toggle('open');
+  mm.classList.toggle('open',o);
+  document.body.style.overflow=o?'hidden':'';
+});
+function closeMenu(){burger.classList.remove('open');mm.classList.remove('open');document.body.style.overflow='';}
+
+/* ── SERVICIOS SWAP ── */
+const rows=document.querySelectorAll('.sv-row');
+const svImg=document.getElementById('sv-img');
+rows.forEach(row=>{
+  row.addEventListener('click',()=>{
+    rows.forEach(r=>r.classList.remove('act'));
+    row.classList.add('act');
+    svImg.style.opacity='0';svImg.style.transform='scale(1.05)';
+    setTimeout(()=>{
+      svImg.src=row.dataset.img;
+      svImg.style.transition='opacity .45s,transform .65s cubic-bezier(.16,1,.3,1)';
+      svImg.style.opacity='1';svImg.style.transform='scale(1)';
+    },230);
+  });
+});
+
+/* ── SCROLL REVEAL ── */
+const obs=new IntersectionObserver(entries=>{
+  entries.forEach((e,i)=>{
+    if(e.isIntersecting){
+      e.target.style.transitionDelay=Math.min(i,4)*70+'ms';
+      e.target.classList.add('v');obs.unobserve(e.target);
+    }
+  });
+},{threshold:0,rootMargin:'0px 0px -16px 0px'});
+document.querySelectorAll('.rv,.wipe,.eyebrow,.sv-img').forEach(el=>obs.observe(el));
+setTimeout(()=>{
+  document.querySelectorAll('.rv:not(.v),.wipe:not(.v),.eyebrow:not(.v),.sv-img:not(.v)').forEach(el=>{
+    el.style.transitionDelay='0ms';el.classList.add('v');
+  });
+},1700);
+
+/* ── EFECTOS CREATIVOS (respetan prefers-reduced-motion) ── */
+const REDUCE=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+const FINEPOINTER=window.matchMedia('(hover:hover) and (pointer:fine)').matches;
+
+/* partículas de luz dorada flotando en el hero */
+if(!REDUCE){
+  const wrap=document.getElementById('hEmbers');
+  if(wrap){
+    for(let i=0;i<18;i++){
+      const s=document.createElement('span');s.className='ember';
+      const sz=2+Math.random()*3;
+      s.style.left=(Math.random()*98)+'%';
+      s.style.width=sz+'px';s.style.height=sz+'px';
+      s.style.animationDuration=(10+Math.random()*9)+'s';
+      s.style.animationDelay=(-Math.random()*16)+'s';
+      s.style.setProperty('--dx',((Math.random()-.5)*70).toFixed(0)+'px');
+      wrap.appendChild(s);
+    }
+  }
+}
+
+/* tilt 3D sutil en las tarjetas de proyectos (solo desktop con mouse) */
+if(!REDUCE && FINEPOINTER){
+  document.querySelectorAll('.pi').forEach(pi=>{
+    pi.addEventListener('mousemove',e=>{
+      const r=pi.getBoundingClientRect();
+      const px=(e.clientX-r.left)/r.width-.5, py=(e.clientY-r.top)/r.height-.5;
+      pi.style.transform=`perspective(820px) rotateX(${(-py*5).toFixed(2)}deg) rotateY(${(px*6).toFixed(2)}deg)`;
+    });
+    pi.addEventListener('mouseleave',()=>{pi.style.transform='';});
+  });
+}
+
+/* ── COUNTER ── */
+const cobs=new IntersectionObserver(entries=>{
+  entries.forEach(e=>{
+    if(!e.isIntersecting)return;
+    const el=e.target,target=+el.dataset.to;let s=null;
+    const tick=ts=>{if(!s)s=ts;const p=Math.min((ts-s)/2100,1),ease=1-Math.pow(1-p,3);
+      el.textContent=Math.round(ease*target);if(p<1)requestAnimationFrame(tick);else el.textContent=target;};
+    requestAnimationFrame(tick);cobs.unobserve(el);
+  });
+},{threshold:.6});
+document.querySelectorAll('.cnt').forEach(el=>cobs.observe(el));
+
+/* ── FORM ── */
+/* ── TESTIMONIOS — carrusel infinito ── */
+(function(){
+  const track=document.getElementById('testiTrack');
+  if(!track)return;
+  if(window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  /* duplicamos las tarjetas para que el bucle sea continuo y sin saltos */
+  track.querySelectorAll('.tcard').forEach(c=>track.appendChild(c.cloneNode(true)));
+})();
+
+
+/* ───────────────────────────────────────────────
+   CONFIG — el cliente cambia estos dos valores:
+   CONTACT_EMAIL: correo donde llegan las solicitudes (activar FormSubmit la 1ª vez)
+   WHATSAPP: número en formato internacional sin "+"
+─────────────────────────────────────────────── */
+const CONTACT_EMAIL='ventas@lumenproducciones.com.pe';
+const WHATSAPP='51996474586';
+
+function setBtn(btn,text){btn.querySelector('span').textContent=text;}
+
+async function sendForm(e){
+  e.preventDefault();
+  const form=document.getElementById('ctform'),btn=document.getElementById('sbtn');
+  if(btn.disabled)return;
+  const n=form.querySelector('[name=nombre]'),em=form.querySelector('[name=email]');
+  const honey=form.querySelector('[name=_honey]');
+  [n,em].forEach(f=>f.style.borderBottomColor='');
+  /* validation */
+  let err=false;
+  if(!n.value.trim()){n.style.borderBottomColor='#c0392b';n.focus();err=true;}
+  const emRe=/^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if(!emRe.test(em.value.trim())){em.style.borderBottomColor='#c0392b';if(!err)em.focus();err=true;}
+  if(err)return;
+  if(honey&&honey.value)return; /* bot */
+
+  /* loading */
+  btn.classList.remove('success','error');btn.classList.add('loading');btn.disabled=true;
+  setBtn(btn,'Enviando...');
+
+  try{
+    const data=new FormData(form);
+    const res=await fetch('https://formsubmit.co/ajax/'+CONTACT_EMAIL,{
+      method:'POST',headers:{'Accept':'application/json'},body:data
+    });
+    const ok=res.ok;
+    let json=null;try{json=await res.json();}catch(_){}
+    if(ok&&(!json||json.success===undefined||String(json.success)==='true'||json.success===true)){
+      btn.classList.remove('loading');btn.classList.add('success');
+      setBtn(btn,'¡Solicitud enviada!');
+      form.reset();
+      setTimeout(()=>{btn.classList.remove('success');btn.disabled=false;setBtn(btn,'Enviar solicitud');},5200);
+    }else{throw new Error('formsubmit');}
+  }catch(_){
+    /* fallback: ofrecer WhatsApp con los datos prellenados */
+    btn.classList.remove('loading');btn.classList.add('error');
+    setBtn(btn,'Reintentar por WhatsApp');
+    btn.disabled=false;
+    const msg=encodeURIComponent(
+      'Hola Lumen, quiero cotizar un evento.\n'+
+      'Nombre: '+(form.nombre.value||'')+'\n'+
+      'Tipo: '+(form.tipo_evento.value||'')+'\n'+
+      'Fecha: '+(form.fecha_tentativa.value||'')+'\n'+
+      'Invitados: '+(form.invitados.value||'')+'\n'+
+      (form.mensaje.value?('Detalle: '+form.mensaje.value):'')
+    );
+    btn.onclick=()=>{window.open('https://wa.me/'+WHATSAPP+'?text='+msg,'_blank','noopener');};
+  }
+}
+</script>
+</body>
+</html>
